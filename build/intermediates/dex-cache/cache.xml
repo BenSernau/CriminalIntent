@@ -1,2 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_7951fec73621e1322d68df1282e45721825f577e.jar" />
+    </item>
+    <item
+        jar="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.1.0_8dca04045b30eca68dfb947509ec5addc1925942.jar" />
+    </item>
+    <item
+        jar="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_62630ac8abd230588411b9ced550c3307d12c237.jar" />
+    </item>
+    <item
+        jar="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_5b6fc1b390c1e20dddf07566654c2734dbb76a85.jar" />
+    </item>
+    <item
+        jar="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_1c226534d67308028d1b3cbe1577094f968d20de.jar" />
+    </item>
+    <item
+        jar="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_b2a869096bfd74aa700f69e29acff6a2465634a1.jar" />
+    </item>
+    <item
+        jar="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.1.0_096f036ca54dfda256d72ef1994092fca63bda92.jar" />
+    </item>
+    <item
+        jar="/home/cs374/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_6d46ca0a9886a4fce3ec3b1b4a88056c91246ad9.jar" />
+    </item>
+    <item
+        jar="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/home/cs374/Downloads/CriminalIntent/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.0.0_fe57d4612b77d88e781922c5e94060665d2b6a06.jar" />
+    </item>
+
+</items>
