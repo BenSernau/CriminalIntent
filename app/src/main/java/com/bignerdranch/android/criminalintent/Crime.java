@@ -6,11 +6,12 @@ import java.util.UUID;
 /**
  * Created by bsern on 9/10/2016.
  */
-public class Crime {
+public class  Crime {
     private UUID mId;
     private String mTitle;
     private Date mDate;
     private boolean mSolved;
+    private String mSuspect;
 
     public Crime() {
     // Generate unique identifier
@@ -49,4 +50,10 @@ public class Crime {
     public void setSolved(boolean solved) {
         mSolved = solved;
     }
+
+    public String getSuspect() { return mSuspect; }
+
+    public void setSuspect(String suspect) { mSuspect = suspect; }
+
+    public String getPhotoFilename() { return "IMG_" + getId().toString() + ".jpg"; }
 }

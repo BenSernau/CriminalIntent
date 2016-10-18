@@ -55,6 +55,8 @@ public class DatePickerFragment extends android.support.v4.app.DialogFragment {
         mDatePicker = (DatePicker) v.findViewById(R.id.dialog_date_date_picker);
         mTimePicker = (TimePicker) v.findViewById(R.id.dialog_date_time_picker);
         mDatePicker.init(year, month, day, null);
+        mTimePicker.setHour(hour);
+        mTimePicker.setMinute(minute);
 
         return new AlertDialog.Builder(getActivity())
                 .setView(v)
