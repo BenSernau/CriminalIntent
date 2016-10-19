@@ -1,5 +1,7 @@
 package com.bignerdranch.android.criminalintent;
 
+import android.provider.ContactsContract;
+
 import java.util.Date;
 import java.util.UUID;
 
@@ -12,6 +14,7 @@ public class  Crime {
     private Date mDate;
     private boolean mSolved;
     private String mSuspect;
+    private String mNumber;
 
     public Crime() {
     // Generate unique identifier
@@ -56,4 +59,8 @@ public class  Crime {
     public void setSuspect(String suspect) { mSuspect = suspect; }
 
     public String getPhotoFilename() { return "IMG_" + getId().toString() + ".jpg"; }
+
+    public void setNumber(String number) { mNumber = number; }
+
+    public String getNumber() { return mNumber; }
 }
