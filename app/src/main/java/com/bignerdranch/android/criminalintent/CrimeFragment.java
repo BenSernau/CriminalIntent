@@ -270,7 +270,6 @@ public class CrimeFragment extends Fragment{
                     }
                 }
 
-                //Cursor dataCursor = getActivity().getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, projection, where, null, null);
                 try {
                 // Double-check that you actually got results
                     if (c.getCount() == 0) {
@@ -279,7 +278,6 @@ public class CrimeFragment extends Fragment{
                     // Pull out the first column of the first row of data -
                     // that is your suspect's name.
                     c.moveToFirst();
-                    //dataCursor.moveToFirst();
                     String suspect = c.getString(0);
                     String number = stringNumber;
                     mCrime.setSuspect(suspect);
