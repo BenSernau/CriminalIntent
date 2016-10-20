@@ -74,7 +74,6 @@ public class CrimeFragment extends Fragment{
     }
 
     @Override
-
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         mCallbacks = (Callbacks)activity;
@@ -120,9 +119,7 @@ public class CrimeFragment extends Fragment{
 
                 // No explanation needed, we can request the permission.
 
-                ActivityCompat.requestPermissions(this.getActivity(),
-                        new String[]{Manifest.permission.READ_CONTACTS},
-                        MY_PERMISSIONS_REQUEST_READ_CONTACTS);
+                ActivityCompat.requestPermissions(this.getActivity(), new String[]{Manifest.permission.READ_CONTACTS}, MY_PERMISSIONS_REQUEST_READ_CONTACTS);
             }
         }
 
@@ -275,12 +272,12 @@ public class CrimeFragment extends Fragment{
 
                 //Cursor dataCursor = getActivity().getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, projection, where, null, null);
                 try {
-// Double-check that you actually got results
+                // Double-check that you actually got results
                     if (c.getCount() == 0) {
                         return;
                     }
-// Pull out the first column of the first row of data -
-// that is your suspect's name.
+                    // Pull out the first column of the first row of data -
+                    // that is your suspect's name.
                     c.moveToFirst();
                     //dataCursor.moveToFirst();
                     String suspect = c.getString(0);
